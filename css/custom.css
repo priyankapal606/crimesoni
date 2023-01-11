@@ -1,0 +1,71 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-pink {
+    background: #FDF9FF;
+}
+
+.content-inner{
+    border: 1px solid #F1F1F1;
+    box-shadow: 0px 3px 0px #9e45ad, 
+    0px 0px 30px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    padding: 50px 20px 30px;
+}
+.faq-header {
+    color: #212529;
+    background: #F1F1F1;
+}
+.accordion-button:not(.collapsed) {
+    color: #212529;
+    background: #F1F1F1;
+}
+
+.browser{
+    background-image: url(../img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a.nav-link {
+    color: #1D1D1D;
+    line-height: 32px;
+    font-size: 18px;
+}
+.btn.btn-primary {
+    color: #fff;
+    background: #7A28A0;
+    border-radius: 6px;
+    border: none;
+}
+.btn.btn-outline-success {
+    border: 1.5px solid #7A28A0;
+    border-radius: 6px;
+    color: #7A28A0;
+}
+.btn:hover{
+    color: #fff;
+    background: #7A28A0;
+}
+     
+.btn-lg {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.btn.btn-rounded {
+    border-radius: 30px;
+}
+.nav-link.active {
+    border-bottom: solid 2px #7a28a0;
+}
+.content-row  img{
+    min-width: 30px;
+}
+.right-journal {
+    color: #9E45AD;
+}
+.lead {
+    color: #4D4D4DCC;
+}
